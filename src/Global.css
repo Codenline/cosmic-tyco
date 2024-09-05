@@ -1,0 +1,99 @@
+:root {
+  --purple-primary-color: #6F3E9C;
+  --purple-secondary-color: #967BB0;
+  --black-color: #08090A;
+  --purple-background-color: #E9E4ED;
+  font-family: "Jost", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+
+
+/* Header and Footer global configs */
+header,
+footer {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+/* Header Style */
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--purple-primary-color);
+  padding: 10px 0px;
+}
+
+.changing-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black-color);
+  color: var(--purple-background-color);
+}
+
+.changing-text p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.product-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  font-size: 0.8rem;
+  gap: 20px;
+  margin-left: 40px;
+}
+
+.product-nav h2 {
+  cursor: pointer;
+  user-select: none;
+  color: var(--purple-background-color);
+}
+
+.icons-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 200px;
+  color: var(--purple-background-color);
+  gap: 20px;
+  margin-right: 40px;
+}
+
+.icons-nav img {
+  height: 22px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.cosmic_tyko_logo {
+  height: 45px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Footer Style */
+footer {
+  margin-top: auto;
+  
+}
