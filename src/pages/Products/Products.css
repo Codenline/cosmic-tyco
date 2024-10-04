@@ -1,0 +1,28 @@
+.products-main {
+  background-color: white;
+  color: var(--black-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-banner {
+  background-color: var(--purple-background-color);
+  color: var(--purple-primary-color);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.products-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin: 100px 0 100px 0;
+}

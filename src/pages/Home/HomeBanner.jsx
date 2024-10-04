@@ -2,7 +2,7 @@ import './HomeBanner.css'
 
 export default function HomeBanner() {
   return (
-    <div className='banner-content'>
+    <section className='banner-content'>
       <div className='text-banner-content'>
         <div className="banner-text-box">
           <p className="banner-collection-text">ARTE SUBLIME COLLECTION 2024</p>
@@ -14,8 +14,8 @@ export default function HomeBanner() {
         </div>
       </div>
       <div className='img-banner-content'>
-        <img src='./public/banner_man.png'/>
+        <img src='./public/collections_banners/Arte Sublime.png'/>
       </div>
-    </div>
+    </section>
   )
 }

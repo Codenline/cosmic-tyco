@@ -1,0 +1,23 @@
+.collections-main {
+  background-color: white;
+  color: var(--black-color);
+}
+
+.collections-banner {
+  background-color: var(--purple-background-color);
+  color: var(--purple-primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.collections-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  margin: 100px 0 300px 0;
+}
