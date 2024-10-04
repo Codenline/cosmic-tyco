@@ -1,0 +1,118 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nome": "Mitsubishi lancer",
+      "descricao": "Coleção \"Gear World\" inspirada no carro da mitsubishi.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "Gear World",
+      "cor": [
+        "Branca",
+        "Preta",
+        "Rosa"
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Porsche 911",
+      "descricao": "Coleção \"Gear World\" inspirada no carro mais célebre da porsche.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "Gear World",
+      "cor": [
+        "Branca",
+        "Preta"
+      ]
+    },
+    {
+      "id": 3,
+      "nome": "Dodge Charger",
+      "descricao": "Coleção \"Gear World\" inspirada no muscle car da dodge mais famoso.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "Gear World",
+      "cor": [
+        "Branca",
+        "Preta",
+        "Amarela"
+      ]
+    },
+    {
+      "id": 4,
+      "nome": "incarnated rage",
+      "descricao": "Coleção \"Arte Sublime\" inspirada no quadro da queda do anjo.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "Arte Sublime",
+      "cor": [
+        "Branca",
+        "Preta",
+        "Rosa"
+      ]
+    },
+    {
+      "id": 5,
+      "nome": "Kanagawa Peace",
+      "descricao": "Coleção \"Arte Sublime\" inspirada na pintura da região de kanagawa pelo pintor hokusai.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "Arte Sublime",
+      "cor": [
+        "Branca",
+        "Preta"
+      ]
+    },
+    {
+      "id": 6,
+      "nome": "Praise the Lord",
+      "descricao": "Coleção \"Arte Sublime\" inspirada no quadro da criação de Adão feita por Michelangelo.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "Arte Sublime",
+      "cor": [
+        "Branca",
+        "Preta",
+        "Amarela"
+      ]
+    },
+    {
+      "id": 7,
+      "nome": "MF DOOM",
+      "descricao": "Coleção \"aqueles que sabem de tudo\" inspirada no cantor do rap underground mais famoso.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "aqueles que sabem de tudo",
+      "cor": [
+        "Branca",
+        "Preta",
+        "Rosa"
+      ]
+    },
+    {
+      "id": 8,
+      "nome": "2pac",
+      "descricao": "Coleção \"aqueles que sabem de tudo\" inspirada em um dos rappers mais famosos dos anos 2000.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "aqueles que sabem de tudo",
+      "cor": [
+        "Branca",
+        "Preta"
+      ]
+    },
+    {
+      "id": 9,
+      "nome": "michael jackson",
+      "descricao": "Coleção \"aqueles que sabem de tudo\" inspirada no rei do pop mundialmente conhecido.",
+      "valor": 80.00,
+      "categoria": "Camiseta",
+      "colecao": "aqueles que sabem de tudo",
+      "cor": [
+        "Branca",
+        "Preta",
+        "Amarela"
+      ]
+    }
+  ]
+}

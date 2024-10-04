@@ -1,4 +1,5 @@
 import '.././Global.css'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -8,10 +9,16 @@ export default function Header() {
       </div>
       <header>
         <nav className='product-nav'>
-          <h2>Collections</h2>
-          <h2>Products</h2>
+          <Link to={`/Collections`}>
+            <h2>Collections</h2>
+          </Link>
+          <Link to={`/Products`}>
+            <h2>Products</h2>
+          </Link>
         </nav>
-        <img src="./public/cosmic_tyko.webp" className="cosmic_tyko_logo" />
+        <Link to={`/`}>
+          <img src="./public/cosmic_tyko.webp" className="cosmic_tyko_logo" />
+        </Link>
         <nav className='icons-nav'>
           <img src='./public/cart.svg' id='cart-icon' />
           <img src='./public/search.svg' id='search-icon' />
