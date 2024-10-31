@@ -10,10 +10,10 @@ export default function Header() {
       <header>
         <nav className='product-nav'>
           <Link to={`/Collections`}>
-            <h2>Collections</h2>
+            <h2>Coleções</h2>
           </Link>
           <Link to={`/Products`}>
-            <h2>Products</h2>
+            <h2>Produtos</h2>
           </Link>
         </nav>
         <Link to={`/`}>
@@ -22,7 +22,9 @@ export default function Header() {
         <nav className='icons-nav'>
           <img src='./public/cart.svg' id='cart-icon' />
           <img src='./public/search.svg' id='search-icon' />
-          <img src='./public/profile.svg' id='profile-icon' />
+          <Link to={`/Profile`}>
+            <img src='./public/profile.svg' id='profile-icon' />
+          </Link>
         </nav>
       </header>
     </>
