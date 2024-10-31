@@ -26,8 +26,8 @@ export default function RegisterPage() {
             <input type="text" placeholder="Nome de usuário:" />
             <input type="password" placeholder="Crie uma senha:" />
             <input type="password" placeholder="Digite novamente a senha:" />
-            <Link to={`/`}>
-              <button type="submit">Entrar</button>
+            <Link to={`/Login`}>
+              <button type="submit">Criar conta</button>
             </Link>
           </form>
           <div className="register-links">
