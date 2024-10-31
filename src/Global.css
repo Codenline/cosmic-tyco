@@ -86,6 +86,10 @@ header {
   user-select: none;
 }
 
+.icons-nav a {
+  height: 22px;
+}
+
 .cosmic_tyko_logo {
   height: 45px;
   cursor: pointer;

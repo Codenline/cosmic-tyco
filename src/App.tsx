@@ -8,6 +8,8 @@ import Collection from './pages/Collection/Collection'
 import Product from './pages/Product/Product'
 import Products from './pages/Products/Products'
 import Collections from './pages/Collections/Collections'
+import LoginPage from './pages/LoginPage/LoginPage'
+import RegisterPage from './pages/RegisterPage/RegisterPage'
 
 function App() {
 
@@ -21,6 +23,8 @@ function App() {
         <Route path="Products" element={<Products/>} />
         <Route path="Collections" element={<Collections />} />
       </Route>
+      <Route path="Register" element={<RegisterPage />} />
+      <Route path="Login" element={<LoginPage />} />
     </Routes>
   )
 }
