@@ -7,8 +7,8 @@ import Carousel from '../../components/Carousel/Carousel'
 export default function LoginPage() {
 
   const collection_images = [
-    'collections_banners/aqueles que sabem de tudo.png',
     'collections_banners/Arte Sublime.png',
+    'collections_banners/aqueles que sabem de tudo.png',
     'collections_banners/Gear World.png'
   ];
 

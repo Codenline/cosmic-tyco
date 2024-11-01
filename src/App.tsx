@@ -10,6 +10,7 @@ import Products from './pages/Products/Products'
 import Collections from './pages/Collections/Collections'
 import LoginPage from './pages/LoginPage/LoginPage'
 import RegisterPage from './pages/RegisterPage/RegisterPage'
+import ProfilePage from './pages/ProfilePage/ProfilePage'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="Product/:productId" element={<Product/>} />
         <Route path="Products" element={<Products/>} />
         <Route path="Collections" element={<Collections />} />
+        <Route path="Profile" element={<ProfilePage />} />
       </Route>
       <Route path="Register" element={<RegisterPage />} />
       <Route path="Login" element={<LoginPage />} />

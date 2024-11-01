@@ -99,5 +99,10 @@ header {
 /* Footer Style */
 footer {
   margin-top: auto;
-  
+  background-color: var(--purple-secondary-color);
+  padding: 10px 0;
+}
+
+footer span {
+  color: var(--purple-background-color)
 }

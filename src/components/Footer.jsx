@@ -1,5 +1,5 @@
 export default function Footer() {
   return(
-    <footer>Footer</footer>
+    <footer>Cosmic TYK/O <span>2024</span></footer>
   )
 }
