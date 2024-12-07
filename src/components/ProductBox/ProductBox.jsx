@@ -9,7 +9,7 @@ export default function ProductBox(params) {
     <Link to={`/Product/${params.product_id}`}>
       <div className="product-box">
         <div className='product-content'>
-          <img src={imagePath} />
+          <img src={params.url} />
         </div>
         <div className='product-text-box'>
           <h2>{params.product_name}</h2>
